@@ -1,5 +1,7 @@
-GH60 keyboard firmware
+Custom Tinykey firmware
 ======================
+Based on GH60, therefore mostly unchanged README.md for now.
+
 DIY compact keyboard designed and run by komar007 and Geekhack community.
 
 - Both Rev.A and Rev.B PCB are supported by one firmware binary(issue #64)
