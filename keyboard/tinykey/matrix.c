@@ -162,7 +162,7 @@ static matrix_row_t read_cols(void)
            (PINB&(1<<7) ? 0 : (1<<8)) |
            (PINB&(1<<3) ? 0 : (1<<9)) |
            (PINB&(1<<2) ? 0 : (1<<10)) |
-           (PINB&(1<<1) ? 0 : (1<<11) |
+           (PINB&(1<<1) ? 0 : (1<<11)) |
            (PINB&(1<<0) ? 0 : (1<<12));
 }
 
@@ -182,8 +182,8 @@ static void select_row(uint8_t row)
     // Output low(DDR:1, PORT:0) to select
     switch (row) {
         case 0:
-            DDRF  |= (1<<1);
-            PORTF &= ~(1<<1);
+            DDRF  |= (1<<0);
+            PORTF &= ~(1<<0);
             break;
         case 1:
             DDRF  |= (1<<1);
