@@ -1,3 +1,4 @@
+FORK (Added custom layout, tinykey):  
 TMK Keyboard Firmware Collection
 ================================
 This is a keyboard firmware with some useful features for Atmel AVR controller.
